@@ -1,0 +1,157 @@
+.header__topbar {
+    color: #3e4a5e;
+    font-size: 12px;
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid #ebebeb;
+}
+.header__topbar .icon-pin::before {
+    content: "\e909";
+}
+
+.header__topbar .address {
+    display: inline-block;
+}
+.header__topbar .address a {
+    color: #000;
+    text-decoration: none;
+}
+
+.header__topbar .email {
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    padding-left: 15px;
+}
+
+.header__topbar .email:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    background: #d4d4d4;
+    width: 1px;
+    height: 18px;
+    top: calc(50% - 9px);
+}
+.header__topbar .email a {
+    color: #000;
+    text-decoration: none;
+}
+.header__topbar ul.menu {
+    text-align: right;
+    list-style: none;
+    padding: 0;
+}
+
+.header__topbar ul.menu li.contacts {
+    display: inline-block;
+    padding-right: 15px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.header__topbar ul.menu li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.header__topbar ul.menu li.contacts::before {
+    position: absolute;
+    content: "";
+    right: 0;
+    background: #d4d4d4;
+    width: 1px;
+    height: 18px;
+    top: calc(50% - 9px);
+}
+
+.header__topbar ul.menu li.order {
+    display: inline-block;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.header__main {
+    position: relative;
+    top: 0px;
+    box-shadow: none;
+    width: 100%;
+    background: #ffffff;
+    z-index: 99;
+    padding: 25px 0 17px;
+}
+
+.header__main .header-center p.title {
+    padding-top: 18px;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+}
+
+.main-logo {
+    margin-top: -15px;
+
+}
+
+.main-logo img {
+    border: 0;
+    vertical-align: top;
+    max-width: 100%;
+    height: auto;
+    max-height: 70px;
+}
+
+.header__links {
+    font-size: 15px;
+    position: relative;
+    font-weight: 600;
+    padding-top: 18px;
+    text-align: right;
+}
+
+.header__login a.login:hover {
+    color: #C2B9A2;
+    text-decoration: none;
+}
+
+.header__login a.login {
+    text-decoration: none;
+    color: #3e4a5e;
+    position: relative;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+ul.navbar__menu {
+    padding: 0;
+    list-style: none;
+    float: none;
+    -webkit-transition: all .35s;
+    transition: all .35s;
+    margin: 0 auto;
+}
+
+ul.navbar__menu li {
+    position: relative;
+    float: left;
+    padding: 0 15px;
+    line-height: 24px;
+}
+
+ul.navbar__menu li a {
+    text-decoration: none;
+    position: relative;
+    font-family: Modica SemiBold;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: transparent;
+    color: #3e4a5e;
+    white-space: nowrap;
+    text-transform: capitalize;
+    -webkit-transition: all .2s ease 0s;
+    transition: all .2s ease 0s;
+}
+
+ul.navbar__menu li a:hover {
+    color: #C2B9A2;
+}
