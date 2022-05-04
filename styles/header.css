@@ -131,7 +131,6 @@
     font-size: 15px;
     position: relative;
     font-weight: 600;
-    padding-top: 18px;
     text-align: right;
 }
 
@@ -181,3 +180,31 @@ ul.navbar__menu {
             ul.navbar__menu li a:hover {
                 color: #C2B9A2;
             }
+.header-right {
+    position: relative;
+    color: #8d8d8d;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-right .wishlist-box {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.header-right .wishlist-box a.wish-icon{
+    width: 44px;
+    height: 44px;
+    border: 2px solid #e1e1e1;
+    display: inline-block;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+    line-height: 44px;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
