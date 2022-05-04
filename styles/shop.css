@@ -1,4 +1,4 @@
-.shop-container{
+﻿.shop-container {
     padding: 0 30px;
     max-width: 100%;
     width: 100%;
@@ -8,31 +8,7 @@
     margin-left: auto;
 }
 
-.path {
-    color: #C2B9A2;
-    font-size: 13px;
-    font-weight: 400;
-    width: 100%;
-    background: transparent;
-    margin: 0 0 50px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-position: 50%;
-    background-size: cover;
-    background-image: url('../img/полоса.jpg')
-}
 
-.path-text a {
-    color: #818995;
-    text-decoration: none;
-    transition: all 0.2s;
-}
-
-.path-text a:hover {
-    color: #C2B9A2;
-    text-decoration: none;
-    transition: all 0.2s;
-}
 
 .main .option {
     border: 2px solid #e6e6e6;
@@ -79,7 +55,7 @@
     transition: all 0.1s;
 }
 
-.main .shop-title{
+.main .shop-title {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -87,54 +63,61 @@
     justify-content: space-between;
     padding-left: 1.2rem;
 }
-.main .shop-title h1{
+
+.main .shop-title h1 {
     margin: 0;
     font-size: 24px;
 }
-.main .shop__product-list{
+
+.main .shop__product-list {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
-.main .shop__product-list .shop__product-block{
+
+.main .shop__product-list .shop__product-block {
     margin-bottom: 30px;
     width: calc(100%/3);
     padding: 0 1.2rem;
     border-right: 1px solid #e6e6e6;
 }
 
-.main .shop__product-list .shop__product-block .product-img{
+.main .shop__product-list .shop__product-block .product-img {
     text-align: center;
 }
-.main .shop__product-list .shop__product-block .product-img img{
+
+.main .shop__product-list .shop__product-block .product-img img {
     margin-bottom: 15px;
     cursor: pointer;
     max-width: 100%;
     height: auto;
 }
 
-.main .shop__product-list .shop__product-block .product-name{
+.main .shop__product-list .shop__product-block .product-name {
     margin-bottom: 7px;
 }
-.main .shop__product-list .shop__product-block .product-name a{
+
+.main .shop__product-list .shop__product-block .product-name a {
     font-size: 15px;
     font-weight: 500;
     color: #000;
     transition: all .2s;
     text-decoration: none;
 }
-.main .shop__product-list .shop__product-block .product-name a:hover{
+
+.main .shop__product-list .shop__product-block .product-name a:hover {
     color: #C2B9A2;
     transition: all .2s;
     text-decoration: none;
 }
-.main .shop__product-list .shop__product-block .product-price .price{
+
+.main .shop__product-list .shop__product-block .product-price .price {
     font-size: 18px;
     color: #C2B9A2;
 }
 
-@media (min-width: 1440px){ 
-    .shop-container{
-    max-width: 1440px;
+@media (min-width: 1440px) {
+    .shop-container {
+        max-width: 1440px;
     }
 }
