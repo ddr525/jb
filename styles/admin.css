@@ -1,16 +1,88 @@
 form.form{
     border: 2px solid #e6e6e6;
     border-radius: 15px;
-    margin: 0 auto;
+    margin: 0 auto 50px;
     padding: 3rem;
-}
 
+    width: 800px;
+}
+form.form .form-group{
+    margin-bottom: 1rem;
+}
 form.form .form-img{
     margin: 0 auto;
     width: 300px;
     height: 300px;
     border: 1px solid #c0c0c0;
 }
+
+
+
+form.form .form-img img {
+    border: 1px solid #c0c0c0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+form.form input[name="img"]{
+    width: 300px;
+    margin: 0 auto;
+    
+    display: block;
+}
+
+form.form .form-control{
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+form.form .form-select:focus{
+    
+box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%)
+}
+
+form.form textarea.form-control {
+    width: 100%;
+    height: auto;
+}
+form.form .price{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form.form .price input{
+    margin: 0;
+    width: 265px;
+}
+form.form .price .currency {
+    margin-left: -1px;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 0 0.25rem 0.25rem 0;
+}
+
 
 form.form .button {
     margin-top: 30px;
@@ -19,4 +91,11 @@ form.form .button {
     color: #ffffff;
     width: 100%;
     padding: 0.375rem 0.75rem;;
+}
+
+
+@media (max-width: 1440px) {
+    form.form .price .currency{
+        padding: 0.575rem 0.75rem;
+    }
 }

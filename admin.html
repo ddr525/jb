@@ -70,25 +70,38 @@
             <form class="form">
                 <div class="form-group">
                     <div class="form-img">
-                        <!-- <img id="preview" width="300" height="300" src="#" alt=""> -->
+                        
                     </div>
                 </div>
                 <div class="form-group">
                     <input class="form-control-file" type="file" accept="image/*" name="img">
                 </div>
                 <div class="form-group">
-                    <input class="form-control" type="text" placeholder="Цена товара">
+                    <input class="form-control" type="text" placeholder="Название товара">
                 </div>
                 <div class="form-group">
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                        </div>
-                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-                        <div class="input-group-append">
-                            <span class="input-group-text">₸</span>
+                    <select class="form-control" aria-label="Default select example">
+                        <option selected value="">Тип товара</option>
+                        <option value="1">Одежда</option>
+                        <option value="2">Плед</option>
+                      </select>
+                </div>
+                <div class="form-group">
+                    <div class="input-group mb-5">
+                        <div class="price">
+                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Цена товара">
+                            <div class="input-group-append">
+                                <span class="currency">₸</span>
+                            </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="form-group">
+                    <label for="description">Описание товара</label>
+                    <textarea class="form-control" id="description" rows="5"></textarea>
+                </div>
+
                 <button type="submit" class="button">Добавить</button>
             </form>
         </div>
